@@ -1,6 +1,12 @@
 # row_count.sh
 Compare the number of source and target database tables and count(*) to compare the number
 
+## **Function**
+
+1. Compare the missing database and table names of the source and target databases
+2. Compare count(*).
+3. You can use check sum if you want to change it, but I am too lazy to change it here
+
 ## Modify the script
 
 139~151
