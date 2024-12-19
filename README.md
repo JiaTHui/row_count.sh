@@ -5,7 +5,8 @@ Compare the number of source and target database tables and count(*) to compare 
 
 1. Compare the missing database and table names of the source and target databases
 2. Compare count(*).
-3. You can use check sum if you want to change it, but I am too lazy to change it here
+3. Concurrent comparisons, using the max_processes variable of the compare_row_counts function (default 10, which is the optimal setting and does not require configuration; you can lower it but it is not recommended to increase it)
+4. You can use check sum if you want to change it, but I am too lazy to change it here
 
 ## Modify the script
 
